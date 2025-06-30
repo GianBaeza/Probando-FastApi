@@ -1,0 +1,36 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()  # Inicializa la aplicación/contexto\n@app.get(\"/\")     # Registra una ruta en la aplicación\nasync def DJYEDROS(): \n    return {\"musica\": \"mariposas en el aire \"}\n@app.get(\"/url\")     # Registra una ruta en la aplicación\nasync def Personas(): \n    return {\"message\": \"gianbaeza.com\"}",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "user",
+        "description": "user",
+        "peekOfCode": "app = FastAPI()\n#para inicial la apliacion ahora seria uvicorn user:app --reload utiliza el nombre del archivo\n@app.get(\"/users\")\nasync def get_users() -> str:\n    return \"usuarios\"",
+        "detail": "user",
+        "documentation": {}
+    }
+]
