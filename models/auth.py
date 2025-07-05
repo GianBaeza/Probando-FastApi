@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class User(BaseModel):
-    username:str
+    username: str
     email: str
     full_name: str | None = None
     disabled: bool | None = None
@@ -15,9 +15,12 @@ class UserInDB(User):
     fecha_nacimiento: str | None = None
     genero: str | None = None
     estado_civil: str | None = None
-    
-    
-    
+
+
 class Login(BaseModel):
-    user:str
+    username: str
+    password: str
+
+
+class UserRegister(User):
     password: str
